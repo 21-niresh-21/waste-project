@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>production</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="production.css" />
+    <link rel="stylesheet" href="form.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root" style="margin: inherit">
+      <div class="horizontal-div-boxes">
+        <header class="side-header">
+          <div class="nav-items-div">
+            <nav>
+              <ul class="ul-one-below-other">
+                <div class="link-hover-div">
+                  <li>
+                    <a>Dashboard</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="production.html">Production</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="employee.html">Employee</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="materials.html">Inventory</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="purchase.html">Purchase</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="add_product.html">Products</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="supplier.html">Suppliers</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="asset.html">Assets</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="recipe.html">Recipe</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="orders.html">Orders</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="sales.html">Sales</a>
+                  </li>
+                </div>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <main class="main-flex">
+          <div class="main-grid">
+            <header class="top-header">
+              <div class="nav-items-div">
+                <nav>
+                  <ul class="ul-side-by-side">
+                    <div class="link-hover-div">
+                      <li><a href="production.html">production entry</a></li>
+                    </div>
+                    <div class="link-hover-div">
+                      <li><a href="">view productions</a></li>
+                    </div>
+                    <div class="link-hover-div">
+                      <li><a href="move.html">move to freezer</a></li>
+                    </div>
+                    <div class="link-hover-div">
+                      <li><a href="">analysis</a></li>
+                    </div>
+                    <div class="link-hover-div">
+                      <li><a href="reports.html">reports</a></li>
+                    </div>
+                  </ul>
+                </nav>
+              </div>
+            </header>
+            <main class="main-content">
+              <div class="prep-form">
+                <div class="div-h3-form">
+                  <h3 class="h3-heading">preparation</h3>
+                </div>
+                <div class="form-div">
+                  <form>
+                    <div class="column-one">
+                      <div class="div-form-item">
+                        <label>start date</label> <input type="date" />
+                      </div>
+                      <div class="div-form-item">
+                        <label>start time</label> <input type="time" />
+                      </div>
+                      <div class="div-form-item">
+                        <label>end date</label> <input type="date" />
+                      </div>
+                      <div class="div-form-item">
+                        <label>end time</label> <input type="time" />
+                      </div>
+                    </div>
+                    <div class="column-two">
+                      <div class="div-form-item">
+                        <label>recipe name</label>
+                        <select>
+                          <option value="fake1">fake 1</option>
+                          <option value="fake2">fake 2</option>
+                        </select>
+                      </div>
+                      <div class="div-form-item">
+                        <label>prepared by</label>
+                        <select>
+                          <option value="fake1">fake 1</option>
+                          <option value="fake2">fake 2</option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+                  <button class="production-button">add preparation</button>
+                </div>
+              </div>
+              <div class="prep-form">
+                <div class="div-h3-form">
+                  <h3 class="h3-heading">production</h3>
+                  <select>
+                    <option value="fake1">choose a date</option>
+                    <option value="fake2">fake 2</option>
+                  </select>
+                </div>
+                <div class="form-div">
+                  <form>
+                    <div class="column-one">
+                      <div class="div-form-item">
+                        <label>production start time</label>
+                        <input type="datetime" />
+                      </div>
+                      <div class="div-form-item">
+                        <label>production end time</label>
+                        <input type="datetime" />
+                      </div>
+                      <div class="div-form-item" id="new-field">
+                        <label>no of products produced</label>
+                        <input type="number" />
+                        <!--insert the icon for add button-->
+                      </div>
+                      <div class="div-form-item"></div>
+                    </div>
+                    <div class="column-two">
+                      <div class="div-form-item">
+                        <label>product name</label>
+                        <select>
+                          <option value="fake1">fake 1</option>
+                          <option value="fake2">fake 2</option>
+                        </select>
+                      </div>
+                      <div class="div-form-item">
+                        <label>Quantity</label>
+                        <input type="number" />
+                      </div>
+                    </div>
+                  </form>
+                  <button class="production-button">add preparation</button>
+                </div>
+              </div>
+            </main>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

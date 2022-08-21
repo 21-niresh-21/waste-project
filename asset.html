@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assets</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="production.css" />
+    <link rel="stylesheet" href="form.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root" style="margin: inherit">
+      <div class="horizontal-div-boxes">
+        <header class="side-header">
+          <div class="nav-items-div">
+            <nav>
+              <ul class="ul-one-below-other">
+                <div class="link-hover-div">
+                  <li>
+                    <a>Dashboard</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="production.html">Production</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="employee.html">Employee</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="materials.html">Inventory</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="purchase.html">Purchase</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="add_product.html">Products</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="supplier.html">Suppliers</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="asset.html">Assets</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="recipe.html">Recipe</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="orders.html">Orders</a>
+                  </li>
+                </div>
+                <div class="link-hover-div">
+                  <li>
+                    <a href="sales.html">Sales</a>
+                  </li>
+                </div>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <main class="main-flex">
+          <div class="main-grid">
+            <header class="top-header">
+              <div class="nav-items-div">
+                <nav>
+                  <ul class="ul-side-by-side">
+                    <div class="link-hover-div">
+                      <li><a href="asset.html">Add new asset</a></li>
+                    </div>
+                    <div class="link-hover-div">
+                      <li><a href="">view assets</a></li>
+                    </div>
+                    <div class="link-hover-div">
+                      <li><a href="asset_service.html">asset services</a></li>
+                    </div>
+                    <div class="link-hover-div">
+                      <li><a href="">reports</a></li>
+                    </div>
+                  </ul>
+                </nav>
+              </div>
+            </header>
+            <main class="main-content">
+              <div class="prep-form">
+                <div class="div-h3-form">
+                  <h3 class="h3-heading">add asset</h3>
+                </div>
+                <div class="form-div">
+                  <form>
+                    <div class="column-one">
+                      <div class="div-form-item">
+                        <label>asset name</label>
+                        <input type="text" />
+                      </div>
+                      <div class="div-form-item">
+                        <label>asset category</label>
+                        <select>
+                          <option value="fake1">fake 1</option>
+                          <option value="fake2">fake 2</option>
+                        </select>
+                      </div>
+                      <div class="div-form-item">
+                        <label>asset value</label>
+                        <input type="number" />
+                      </div>
+                      
+                    </div>
+                    <div class="column-two"><div class="div-form-item">
+                      <label>additional comments</label>
+                      <textarea></textarea>
+                    </div></div>
+                    
+                  </form>
+                  <button class="small-button">add asset</button>
+                </div>
+              </div>
+              <div class="prep-form">
+                <div class="div-h3-form">
+                  <h3 class="h3-heading">add asset category</h3>
+                </div>
+                <div class="form-div">
+                  <form>
+                    <div class="stack-form">
+                      <div class="div-form-item">
+                        <label>asset category name</label>
+                        <input type="text" />
+                      </div>
+                    </div>
+                    <button class="production-button">add asset category</button>
+                  </form>
+                </div>
+              </div>
+            </main>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

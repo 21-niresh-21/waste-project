@@ -1,0 +1,66 @@
+.div-h3-form {
+    display: flex;
+    align-items: center;
+    background-color: #b3ccd8;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-left: 20px;
+  }
+
+
+  /* .form-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(216, 237, 255);
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  } */
+
+  .form-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c3e0e5;
+    padding: 15px;  
+  }
+
+  /* .form-div{
+    display: flex;
+
+  } */
+
+  .stack-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+.prep-form{
+    margin: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.production-button{
+    width: 150px;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    margin: 2px 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#new-field > *{
+    flex: 5 5 1;
+}
